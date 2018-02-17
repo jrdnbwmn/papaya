@@ -7,7 +7,7 @@
 .link,
 .link:link,
 .link:visited {
-    color: $link-color;
+    color: $text-color;
     text-decoration: none;
     transition: color $fade;
 }
@@ -16,14 +16,31 @@
 .default-links a:focus,
 .link:hover,
 .link:focus {
-    color: $link-hover-color;
-    text-decoration: underline;
+    color: $text-color;
 }
 
 .default-links a:active,
 .link:active {
     background-image: none;
-    color: $active-link-color;
+    color: $text-color;
     outline: 0;
     transition: color $fade;
+}
+
+// Text link
+.link--text,
+.link--text:link,
+.link--text:visited {
+    color: $link-color;
+    border-bottom: 1px solid $light-gray;
+}
+
+.link--text:hover,
+.link--text:focus {
+    color: $link-hover-color;
+    border: none;
+}
+
+.link--text:active {
+    color: $active-link-color;
 }
