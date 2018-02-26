@@ -32,6 +32,39 @@
 }
 
 
+// Form groups
+// -------------------------------------------------------------------
+.form-group {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form-group>.form-control,
+.form-group>.btn {
+    flex: 1 0 0%;
+    border-radius: 0;
+}
+
+.form-group>.btn:first-child:not(:last-child):not(.dropdown-toggle),
+.form-group>.form-control:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-top-left-radius: $border-radius;
+    border-bottom-left-radius: $border-radius;
+}
+
+.form-group>.btn:first-child,
+.form-group>.form-control:first-child {
+    margin-left: 0;
+}
+
+.form-group>.btn:last-child:not(:first-child),
+.form-group>.form-control:last-child:not(:first-child) {
+    border-top-right-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+}
+
+
 // Form layouts
 // -------------------------------------------------------------------
 .form--stacked {

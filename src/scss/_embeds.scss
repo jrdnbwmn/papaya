@@ -3,10 +3,28 @@
 // Make stuff responsive
 img, canvas, iframe, video, svg { max-width: 100%; }
 
+.logo {
+    width: 190px;
+    max-height: 142px;
+}
+
 .icon {
-    max-height: 30px;
+    height: 35px;
+    width: 35px;
+}
+
+.icon--inline {
+    margin-right: 5px;
+    bottom: 1px;
+    height: 14px;
+    width: 15.5px;
 }
 
 .vender-pic {
     max-height: 100px;
+
+    @media screen and (max-width: $breakpoint--sm) {
+        max-height: 30px;
+        display: inline-block;
+    }
 }

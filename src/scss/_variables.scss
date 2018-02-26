@@ -14,12 +14,12 @@ $white:                   #fff !default;
 // Hues
 $blue:                    #428bca !default;
 $green:                   #6fbb57 !default;
-$orange:                  #f0ad4e !default;
+$papaya:                  #ed8d21 !default;
 
 // Color scheme
-$primary-color:           $blue !default;
+$primary-color:           $papaya !default;
 $secondary-color:         $green !default;
-$tertiary-color:          $orange !default;
+$tertiary-color:          $blue !default;
 
 
 // Baseline
@@ -30,9 +30,9 @@ $baseline:                .4rem !default;
 // Typography
 // -------------------------------------------------------------------
 // Font families
-$sans-serif:              "Muli", Avenir, "Avenir Next", Trebuchet, Verdana,
+$sans-serif:              "Mukta", Avenir, "Avenir Next", Trebuchet, Verdana,
                           sans-serif !default;
-$serif:                   Georgia, Times, serif !default;
+$serif:                   "Source Sans Pro", Georgia, Times, serif !default;
 $monospace:               Monaco, Menlo, Consolas,
                           monospace !default;
 
@@ -44,28 +44,28 @@ $font-family--code:       $monospace !default;
 
 // Type scale
 // Good tool: http://type-scale.com/
-$h1:                      2.369rem !default;
-$h2:                      1.777rem !default;
-$h3:                      1.333rem !default;
+$h1:                      2.8rem !default;
+$h2:                      1.9rem !default;
+$h3:                      1.3rem !default;
 $h4:                      1rem !default;
-$h5:                      .75rem !default;
-$h6:                      .75rem !default;
+$h5:                      .667rem !default;
+$h6:                      .667rem !default;
 
 // Finer control over type scale after certain breakpoint (off by default)
-$responsive-type:         false !default;
-$h1--desktop:             2.369rem !default;
-$h2--desktop:             1.777rem !default;
-$h3--desktop:             1.333rem !default;
+$responsive-type:         true !default;
+$h1--desktop:             3.375rem !default;
+$h2--desktop:             2.25rem !default;
+$h3--desktop:             1.4rem !default;
 $h4--desktop:             1rem !default;
-$h5--desktop:             .75rem !default;
-$h6--desktop:             .75rem !default;
+$h5--desktop:             .667rem !default;
+$h6--desktop:             .667rem !default;
 
 // Text color
 $text-color:              $darkest-gray !default;
 
 // Text sizes
 $font-size--mobile:       16px !default;
-$font-size--desktop:      17px !default;
+$font-size--desktop:      18px !default;
 $font-size--lg:           $h3 !default;
 $font-size--sm:           $h5 !default;
 
@@ -84,6 +84,7 @@ $line-height--heading:    1 !default;
 // Mobile Safari has problems with rems being used in media queries
 $breakpoint--sm:          40em !default;
 $breakpoint--md:          50em !default;
+$breakpoint--kd:          1130px !default;
 $breakpoint--lg:          60em !default;
 
 // Max container width
@@ -106,7 +107,7 @@ $heading-mb:              $space-1 !default;
 // Links
 // -------------------------------------------------------------------
 // Link colors
-$link-color:              $text-color !default;
+$link-color:              $primary-color !default;
 $link-hover-color:        darken($primary-color, 10%) !default;
 $active-link-color:       darken($primary-color, 25%) !default;
 

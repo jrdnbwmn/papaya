@@ -47,6 +47,42 @@
     .hide-on-mobile {
         display: none !important;
     }
+
+    .float-none-on-mobile {
+        float: none;
+    }
+}
+
+.show-on-tablet { display: none !important; }
+@media screen and (max-width: $breakpoint--md) {
+    .show-on-tablet,
+    .block-on-tablet {
+        display: block !important;
+    }
+
+    .hide-on-tablet {
+        display: none !important;
+    }
+
+    .float-none-on-tablet {
+        float: none;
+    }
+}
+
+.show-on-kd { display: none !important; }
+@media screen and (max-width: $breakpoint--kd) {
+    .show-on-kd,
+    .block-on-kd {
+        display: block !important;
+    }
+
+    .hide-on-kd {
+        display: none !important;
+    }
+
+    .float-none-on-kd {
+        float: none;
+    }
 }
 
 
