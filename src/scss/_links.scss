@@ -37,9 +37,9 @@
 
 .link--text:hover,
 .link--text:focus {
-    color: $text-color;
+    color: $link-color;
 }
 
 .link--text:active {
-    color: $text-color;
+    color: $link-hover-color;
 }

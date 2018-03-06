@@ -12,9 +12,9 @@ $lightest-gray:           lighten($gray-base, 36%) !default;
 $white:                   #fff !default;
 
 // Hues
-$papaya:                  #ed8d21 !default;
+$papaya:                  #E58C16 !default;
+$green:                   #57A528 !default;
 $blue:                    #428bca !default;
-$green:                   #6fbb57 !default;
 
 // Color scheme
 $primary-color:           $papaya !default;
@@ -82,7 +82,7 @@ $line-height--heading:    1 !default;
 // -------------------------------------------------------------------
 // Breakpoints
 // Mobile Safari has problems with rems being used in media queries
-$breakpoint--sm:          40em !default;
+$breakpoint--sm:          43em !default;
 $breakpoint--md:          50em !default;
 $breakpoint--kd:          1130px !default;
 $breakpoint--lg:          60em !default;

@@ -108,19 +108,19 @@ a.btn {
 // -------------------------------------------------------------------
 // Default button
 .btn--default {
-    background-color: $primary-color;
-    border-color: $primary-color;
+    background-color: $darkest-gray;
+    border-color: $darkest-gray;
     color: $white;
 
     &:hover,
     &:focus {
-        background-color: darken($primary-color, 10%);
-        border-color: darken($primary-color, 10%);
+        background-color: darken($darkest-gray, 10%);
+        border-color: darken($darkest-gray, 10%);
     }
 
     &:active {
-        background-color: darken($primary-color, 20%);
-        border-color: darken($primary-color, 20%);
+        background-color: darken($darkest-gray, 20%);
+        border-color: darken($darkest-gray, 20%);
     }
 }
 
@@ -141,26 +141,5 @@ a.btn {
     &:active {
         background-color: transparent;
         border-color: $light-gray;
-    }
-}
-
-// Dark background button
-.btn--dark-bg {
-    background-color: transparent;
-    border-color: $white;
-    border-width: $border-width;
-    color: $white;
-
-    &:hover,
-    &:focus {
-        background-color: $white;
-        border-color: $white;
-        color: $text-color;
-    }
-
-    &:active {
-        background-color: $lightest-gray;
-        border-color: $lightest-gray;
-        color: $text-color;
     }
 }

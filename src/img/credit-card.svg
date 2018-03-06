@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-    <title>Oval</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <circle id="Oval" fill="#ED8D21" cx="19" cy="19" r="19"></circle>
-        <g id="credit-card" transform="translate(9.000000, 12.000000)" fill-rule="nonzero" fill="#FFFFFF">
-            <path d="M18,0 L2,0 C0.899,0 0,0.9 0,2 L0,12 C0,13.1 0.899,14 2,14 L18,14 C19.1,14 20,13.1 20,12 L20,2 C20,0.9 19.1,0 18,0 Z M18,12 L2,12 L2,6 L18,6 L18,12 Z M18,3 L2,3 L2,2 L18,2 L18,3 Z M4,8.1 L4,8.7 L4.6,8.7 L4.6,8.1 L4,8.1 Z M7.6,9.299 L7.6,9.9 L8.8,9.9 L8.8,9.299 L9.4,9.299 L9.4,8.699 L10,8.699 L10,8.099 L8.8,8.099 L8.8,8.699 L8.199,8.699 L8.199,9.299 L7.6,9.299 Z M10,9.9 L10,9.299 L9.399,9.299 L9.399,9.9 L10,9.9 Z M7,9.9 L7,9.299 L5.8,9.299 L5.8,9.9 L7,9.9 Z M7.6,8.699 L8.2,8.699 L8.2,8.099 L7,8.099 L7,9.298 L7.6,9.298 L7.6,8.699 Z M5.199,9.299 L5.8,9.299 L5.8,8.699 L6.4,8.699 L6.4,8.099 L5.2,8.099 L5.2,8.699 L4.6,8.699 L4.6,9.299 L4,9.299 L4,9.9 L5.199,9.9 L5.199,9.299 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>
+<svg width="38" height="38" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Oval</title><desc>Created with Sketch.</desc><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><circle id="Oval" fill="#ED8D21" cx="19" cy="19" r="19"/><g id="credit-card" transform="translate(9.000000, 12.000000)" fill-rule="nonzero" fill="#FFF"><path d="M18,0 L2,0 C0.899,0 0,0.9 0,2 L0,12 C0,13.1 0.899,14 2,14 L18,14 C19.1,14 20,13.1 20,12 L20,2 C20,0.9 19.1,0 18,0 Z M18,12 L2,12 L2,6 L18,6 L18,12 Z M18,3 L2,3 L2,2 L18,2 L18,3 Z M4,8.1 L4,8.7 L4.6,8.7 L4.6,8.1 L4,8.1 Z M7.6,9.299 L7.6,9.9 L8.8,9.9 L8.8,9.299 L9.4,9.299 L9.4,8.699 L10,8.699 L10,8.099 L8.8,8.099 L8.8,8.699 L8.199,8.699 L8.199,9.299 L7.6,9.299 Z M10,9.9 L10,9.299 L9.399,9.299 L9.399,9.9 L10,9.9 Z M7,9.9 L7,9.299 L5.8,9.299 L5.8,9.9 L7,9.9 Z M7.6,8.699 L8.2,8.699 L8.2,8.099 L7,8.099 L7,9.298 L7.6,9.298 L7.6,8.699 Z M5.199,9.299 L5.8,9.299 L5.8,8.699 L6.4,8.699 L6.4,8.099 L5.2,8.099 L5.2,8.699 L4.6,8.699 L4.6,9.299 L4,9.299 L4,9.9 L5.199,9.9 L5.199,9.299 Z" id="Shape"/></g></g></svg>

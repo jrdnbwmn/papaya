@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-    <title>Oval</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <circle id="Oval" fill="#ED8D21" cx="19" cy="19" r="19"></circle>
-        <g id="tablet-mobile-combo" transform="translate(10.000000, 9.000000)" fill-rule="nonzero" fill="#FFFFFF">
-            <path d="M16.00354,5 L10.99646,5 C9.8938599,5 9,5.8937988 9,6.9963989 L9,18.00354 C9,19.1061401 9.8938599,20 10.99646,20 L16.00354,20 C17.1061401,20 18,19.1061401 18,18.00354 L18,6.9963989 C18,5.8937988 17.1061401,5 16.00354,5 Z M13.5,19 C12.8095703,19 12.25,18.5526733 12.25,18 C12.25,17.4472656 12.8095703,17 13.5,17 C14.1895142,17 14.75,17.4472656 14.75,18 C14.75,18.5526733 14.1895142,19 13.5,19 Z M16,16 L11,16 L11,7 L16,7 L16,16 Z M7,16 L2,16 L2,2 L14,2 L14,3 L16,3 L16,2 C16,0.8989258 15.1005859,0 14,0 L2,0 C0.9003906,0 0,0.8989258 0,2 L0,18 C0,19.0996094 0.9003906,20 2,20 L7.5551758,20 C7.2114258,19.4101562 7,18.7338867 7,18.003418 L7,16 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>
+<svg width="38" height="38" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Oval</title><desc>Created with Sketch.</desc><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><circle id="Oval" fill="#ED8D21" cx="19" cy="19" r="19"/><g id="tablet-mobile-combo" transform="translate(10.000000, 9.000000)" fill-rule="nonzero" fill="#FFF"><path d="M16.00354,5 L10.99646,5 C9.8938599,5 9,5.8937988 9,6.9963989 L9,18.00354 C9,19.1061401 9.8938599,20 10.99646,20 L16.00354,20 C17.1061401,20 18,19.1061401 18,18.00354 L18,6.9963989 C18,5.8937988 17.1061401,5 16.00354,5 Z M13.5,19 C12.8095703,19 12.25,18.5526733 12.25,18 C12.25,17.4472656 12.8095703,17 13.5,17 C14.1895142,17 14.75,17.4472656 14.75,18 C14.75,18.5526733 14.1895142,19 13.5,19 Z M16,16 L11,16 L11,7 L16,7 L16,16 Z M7,16 L2,16 L2,2 L14,2 L14,3 L16,3 L16,2 C16,0.8989258 15.1005859,0 14,0 L2,0 C0.9003906,0 0,0.8989258 0,2 L0,18 C0,19.0996094 0.9003906,20 2,20 L7.5551758,20 C7.2114258,19.4101562 7,18.7338867 7,18.003418 L7,16 Z" id="Shape"/></g></g></svg>
