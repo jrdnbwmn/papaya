@@ -38,11 +38,9 @@
         <meta name="twitter:site" content="@jrdnbwmn">
         <meta name="twitter:creator" content="@jrdnbwmn">
 
-        <style>.bar-btn{background-image:none;border-radius:5px;border-style:solid;border-width:1px;cursor:pointer;display:inline-block;font-family:Mukta,Avenir,"Avenir Next",Trebuchet,Verdana,sans-serif;font-size:1rem;font-weight:700;line-height:1.6rem;margin-bottom:0;padding:.55rem 1.2rem .5rem;text-align:center;text-decoration:none;-ms-touch-action:manipulation;touch-action:manipulation;-webkit-transition:background-color .2s ease-out,background .2s ease-out,color .2s ease-out,border .2s ease-out;transition:background-color .2s ease-out,background .2s ease-out,color .2s ease-out,border .2s ease-out;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;white-space:nowrap;-webkit-appearance:none;-moz-appearance:none;appearance:none}.bar-btn:focus,.bar-btn:hover{outline:0;text-decoration:none}.bar-btn:active{outline:0;background-image:none}.bar-btn,.bar-btn:visited{background-color:transparent;border-color:#babfc6;border-width:1px;color:#31363c}.bar-btn:focus,.bar-btn:hover,.bar-btn:visited:focus,.bar-btn:visited:hover{background-color:transparent;border-color:#5a636e}.bar-btn:active,.bar-btn:visited:active{background-color:transparent;border-color:#babfc6}@media screen and (max-width:930px){.bar-hide-resize{display:none}}@media screen and (max-width:460px){.bar-hide-share{display:none}}</style>
-
     </head>
 
-    <body style="padding-top:71px">
+    <body>
 
     <header class="pt3">
         <div class="align--center mb3">
@@ -126,6 +124,18 @@
             </div>
         </div>
     </footer>
+
+        <!-- for bar -->
+        <script>
+        var barClose = document.getElementById('bar-close');
+        var bar = document.getElementById('bar');
+        var body = document.getElementById('body');
+
+        barClose.onclick = function() {
+            bar.style.display = "none";
+            body.style.padding = "0";
+        };
+        </script>
 
         <!-- MailChimp -->
         <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
