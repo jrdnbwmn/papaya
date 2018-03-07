@@ -20,9 +20,37 @@
         <!-- favicon.ico. Place these in the root directory. -->
         <link rel="shortcut icon" href="/chippewa/favicon.ico">
 
+<style>.bar-btn{background-image:none;border-radius:5px;border-style:solid;border-width:1px;cursor:pointer;display:inline-block;font-size:1rem;font-weight:700;line-height:1rem;margin-bottom:0;padding:10px 22px 9px;text-align:center;text-decoration:none;-ms-touch-action:manipulation;touch-action:manipulation;-webkit-transition:background-color .2s ease-out,background .2s ease-out,color .2s ease-out,border .2s ease-out;transition:background-color .2s ease-out,background .2s ease-out,color .2s ease-out,border .2s ease-out;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;white-space:nowrap;-webkit-appearance:none;-moz-appearance:none;appearance:none}.bar-btn:focus,.bar-btn:hover{outline:0;text-decoration:none}.bar-btn:active{outline:0;background-image:none}.bar-btn,.bar-btn:visited{background-color:transparent;border-color:#babfc6;border-width:1px;color:#31363c}.bar-btn:focus,.bar-btn:hover,.bar-btn:visited:focus,.bar-btn:visited:hover{background-color:transparent;border-color:#5a636e}.bar-btn:active,.bar-btn:visited:active{background-color:transparent;border-color:#babfc6}.bar-container{width:100%;max-width:1400px;margin:0 auto}@media screen and (max-width:750px){.bar-hide-download{display:none}.bar-center-mobile{text-align:center}}@media screen and (max-width:900px){.bar-hide-share{display:none}}</style>
+
     </head>
 
-    <body>
+    <body id="body" style="padding-top:71px">
+
+        <!-- Bar -->
+        <div id="bar" class="fixed" style="top:0;right:0;left:0;z-index:999;border-bottom:1px solid #ddd;padding:15px 100px;background-color:#fff;font-family:SF Pro Text,Helvetica,Arial,sans-serif">
+            <div class="bar-container">
+                <div class="grid-row grid-row--center">
+                    <div class="grid-column bar-center-mobile" style="padding-top:7px;padding-left:11px;margin-right:25px">
+                        <a href="/" class="link"><img style="height:20px" src="/img/papaya-logo.svg" alt=""></a>
+                    </div>
+                    <div class="grid-column align--center bar-hide-share">
+                        <div>
+                            <div class="inline-block vertical--top relative" style="bottom:3px;margin-right:10px">
+                                <div class="fb-share-button" data-href="https://www.eatapapaya.com" data-layout="button" data-size="small" data-mobile-iframe="false"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.eatapapaya.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+                                <div id="fb-root"></div>
+                            </div>
+                            <div class="inline-block vertical--top relative">
+                                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Check out these beautiful website templates" data-url="https://www.eatapapaya.com" data-via="jrdnbwmn" data-show-count="false">Tweet</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-column align--right bar-hide-download">
+                        <a href="" class="bar-btn">Download</a>
+                        <span id="bar-close" style="margin-left:10px;cursor:pointer;padding:5px"><img src="/img/x.svg" alt="Hide"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     <!-- Header -->
@@ -149,6 +177,21 @@
             <p>&copy; Camp Chippewa</p>
         </div>
     </footer>
+
+        <!-- for bar -->
+        <script>var barClose=document.getElementById("bar-close"),bar=document.getElementById("bar"),body=document.getElementById("body");barClose.onclick=function(){bar.style.display="none",body.style.padding="0"};</script>
+
+    <!-- For Facebook share button -->
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- For Twitter share button -->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     </body>
 </html>
