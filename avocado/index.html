@@ -43,7 +43,7 @@
                                 <div id="fb-root"></div>
                             </div>
                             <div class="inline-block vertical--top relative">
-                                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Check out these beautiful website templates" data-url="https://www.eatapapaya.com" data-via="jrdnbwmn" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Check out these beautiful website templates" data-url="https://www.eatapapaya.com" data-via="jrdnbwmn" data-show-count="false">Tweet</a>
                             </div>
                         </div>
                     </div>
@@ -213,6 +213,17 @@
         </footer>
 
     </div> <!-- End container -->
+
+    <!-- for bar -->
+        <script>
+        var barClose = document.getElementById('bar-close');
+        var bar = document.getElementById('bar');
+        var body = document.getElementById('body');
+        barClose.onclick = function() {
+            bar.style.display = "none";
+            body.style.padding = "0";
+        };
+        </script>
 
     <!-- For Facebook share button -->
         <script>(function(d, s, id) {
