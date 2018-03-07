@@ -38,21 +38,11 @@
         <meta name="twitter:site" content="@jrdnbwmn">
         <meta name="twitter:creator" content="@jrdnbwmn">
 
-        <!-- Hotjar -->
-        <script>
-            (function(h,o,t,j,a,r){
-                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-                h._hjSettings={hjid:800786,hjsv:6};
-                a=o.getElementsByTagName('head')[0];
-                r=o.createElement('script');r.async=1;
-                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-                a.appendChild(r);
-            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-        </script>
+        <style>.bar-btn{background-image:none;border-radius:5px;border-style:solid;border-width:1px;cursor:pointer;display:inline-block;font-family:Mukta,Avenir,"Avenir Next",Trebuchet,Verdana,sans-serif;font-size:1rem;font-weight:700;line-height:1.6rem;margin-bottom:0;padding:.55rem 1.2rem .5rem;text-align:center;text-decoration:none;-ms-touch-action:manipulation;touch-action:manipulation;-webkit-transition:background-color .2s ease-out,background .2s ease-out,color .2s ease-out,border .2s ease-out;transition:background-color .2s ease-out,background .2s ease-out,color .2s ease-out,border .2s ease-out;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;white-space:nowrap;-webkit-appearance:none;-moz-appearance:none;appearance:none}.bar-btn:focus,.bar-btn:hover{outline:0;text-decoration:none}.bar-btn:active{outline:0;background-image:none}.bar-btn,.bar-btn:visited{background-color:transparent;border-color:#babfc6;border-width:1px;color:#31363c}.bar-btn:focus,.bar-btn:hover,.bar-btn:visited:focus,.bar-btn:visited:hover{background-color:transparent;border-color:#5a636e}.bar-btn:active,.bar-btn:visited:active{background-color:transparent;border-color:#babfc6}@media screen and (max-width:930px){.bar-hide-resize{display:none}}@media screen and (max-width:460px){.bar-hide-share{display:none}}</style>
 
     </head>
 
-    <body>
+    <body style="padding-top:71px">
 
     <header class="pt3">
         <div class="align--center mb3">
@@ -125,6 +115,7 @@
                     <!-- Facebook share -->
                     <div class="inline-block relative mr1" style="bottom:3px">
                         <div class="fb-share-button" data-href="https://www.eatapapaya.com" data-layout="button" data-size="small" data-mobile-iframe="false"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.eatapapaya.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+                        <div id="fb-root"></div>
                     </div>
                     <!-- Twitter share -->
                     <div class="inline-block relative">
@@ -138,8 +129,10 @@
         </div>
     </footer>
 
+        <!-- MailChimp -->
+        <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        
         <!-- For Facebook share button -->
-        <div id="fb-root"></div>
         <script>(function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
@@ -148,9 +141,6 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
 
-        <!-- MailChimp -->
-        <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-
         <!-- Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114844902-1"></script>
         <script>
@@ -158,6 +148,18 @@
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'UA-114844902-1');
+        </script>
+
+        <!-- Hotjar -->
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:800786,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
         </script>
 
     </body>
