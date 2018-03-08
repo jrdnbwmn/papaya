@@ -5,9 +5,9 @@ $gray-base:               #87919d !default;
 
 $black:                   #000 !default;
 $darkest-gray:            darken($gray-base, 36%) !default;
-$dark-gray:               darken($gray-base, 18%) !default;
+$dark-gray:               darken($gray-base, 20%) !default;
 $gray:                    $gray-base !default;
-$light-gray:              lighten($gray-base, 18%) !default;
+$light-gray:              lighten($gray-base, 25%) !default;
 $lightest-gray:           lighten($gray-base, 36%) !default;
 $white:                   #fff !default;
 
@@ -129,6 +129,8 @@ $border-color:            $light-gray !default;
 $border-style:            solid !default;
 $border-radius:           5px !default;
 $border-width:            1px !default;
+
+$full-shadow:             0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
 
 
 // Animations
