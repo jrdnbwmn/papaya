@@ -62,13 +62,13 @@
 // Placeholder styling
 // -------------------------------------------------------------------
 ::-webkit-input-placeholder {
-    color: $light-gray;
+    color: $gray;
     -webkit-font-smoothing: antialiased;
 }
 ::-moz-placeholder {
-    color: $light-gray;
+    color: $gray;
     -moz-osx-font-smoothing: grayscale;
 }
 :-ms-input-placeholder {
-    color: $light-gray;
+    color: $gray;
 }
