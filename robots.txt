@@ -4,4 +4,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.eatapapaya.com/sitemap.xml
+Sitemap: https://www.papayatemplates.com/sitemap.xml
