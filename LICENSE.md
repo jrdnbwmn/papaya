@@ -7,7 +7,7 @@ You may:
 
 You may not:
 - Sell this site template, or a modification of it, by itself or in a package with other items.
-- Distribute this site template to others. Just point them to eatapapaya.com.
+- Distribute this site template to others. Just point them to papayatemplates.com.
 
 You do not have to:
 - Give attribution to Papaya or Jordan Bowman, although it is appreciated. :)
