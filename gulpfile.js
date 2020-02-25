@@ -1,6 +1,6 @@
 // Get things set up
 // -------------------------------------------------------------------
-// Include Gulp
+    // Include Gulp
 var gulp                    = require("gulp"),
 
     // HTML plugins
@@ -9,11 +9,9 @@ var gulp                    = require("gulp"),
 
     // CSS plugins
     sass                    = require("gulp-sass"),
-    combineMediaQueries     = require("gulp-combine-mq"),
     autoprefixer            = require("gulp-autoprefixer"),
     cssmin                  = require("gulp-clean-css"),
     rename                  = require("gulp-rename"),
-    globber                 = require('glob'),
 
     // JS plugins
     concat                  = require("gulp-concat"),
@@ -80,8 +78,6 @@ gulp.task("css", function() {
         .pipe(plumber(onError))
         // Compile Sass
         .pipe(sass({ style: "compressed", noCache: true }))
-        // Combine media queries
-        .pipe(combineMediaQueries())
         // parse CSS and add vendor-prefixed CSS properties
         .pipe(autoprefixer({
             browsers: ["last 2 versions"]
