@@ -7,8 +7,9 @@
     border-width: $border-width;
     cursor: pointer;
     display: inline-block; // Allow us to better style box model properties
-    font-family: $font-family--ui;
+    font-family: $font-family--heading;
     font-size: 1rem;
+    font-weight: $font-weight--heading;
     line-height: $line-height--base;
     margin-bottom: 0; // For input.btn
     padding: $button-padding;
@@ -98,18 +99,35 @@ a.btn {
 // Default button
 .btn--default {
     background-color: $primary-color;
-    border-color: $primary-color;
+    border-color: $border-color;
     color: $white;
 
     &:hover,
     &:focus {
         background-color: darken($primary-color, 10%);
-        border-color: darken($primary-color, 10%);
+        border-color: $border-color;
     }
 
     &:active {
         background-color: darken($primary-color, 20%);
-        border-color: darken($primary-color, 20%);
+        border-color: $border-color;
+    }
+}
+
+.btn--transparent {
+    background-color: transparent;
+    border-color: transparent;
+    color: $text-color;
+
+    &:hover,
+    &:focus {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    &:active {
+        background-color: transparent;
+        border-color: transparent;
     }
 }
 

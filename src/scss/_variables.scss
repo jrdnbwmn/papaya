@@ -7,21 +7,24 @@ $gray-2:                  #dddddd !default;
 $gray-3:                  #b2b2b2 !default;
 $gray-4:                  #909090 !default;
 $gray-5:                  #6e6e6e !default;
-$gray-6:                  #4c4c4c !default;
+$gray-6:                  #231639 !default;
 
 // Hues
 $blue:                    #16a0e5 !default;
 $turquoise:               #18c9a5 !default;
 $green:                   #72c111 !default;
 $yellow:                  #f9b520 !default;
-$orange:                  #f98320 !default;
+$orange:                  #FA8B49 !default;
 $red:                     #d82d2d !default;
 $pink:                    #db4aa6 !default;
 $purple:                  #8647bc !default;
 $brown:                   #9e6025 !default;
+$light-tan:               #f8f5f2 !default;
+
+$shadow:                  rgba(36,22,58,0.2);
 
 // Color scheme
-$primary-color:           $blue !default;
+$primary-color:           $orange !default;
 $secondary-color:         $green !default;
 $tertiary-color:          $yellow !default;
 
@@ -34,31 +37,33 @@ $baseline:                .4rem !default;
 // Typography
 // -------------------------------------------------------------------
 // Font families
-$sans-serif:              "Open Sans", Avenir, "Avenir Next", Trebuchet, Verdana,
+$sans-serif:              "Gotham", Avenir, "Avenir Next", Trebuchet, Verdana,
+                          sans-serif !default;
+$sans-serif-bold:         "Gotham", Avenir, "Avenir Next", Trebuchet, Verdana,
                           sans-serif !default;
 $serif:                   Georgia, Times, serif !default;
 $monospace:               Monaco, Menlo, Consolas,
                           monospace !default;
 
 $font-family--base:       $sans-serif !default;
-$font-family--heading:    $sans-serif !default;
+$font-family--heading:    $sans-serif-bold !default;
 $font-family--reading:    $serif !default;
 $font-family--ui:         $sans-serif !default;
 $font-family--code:       $monospace !default;
 
 // Type scale - good tool: http://type-scale.com/
-$h1:                      2.369rem !default;
-$h2:                      1.777rem !default;
-$h3:                      1.333rem !default;
+$h1:                      2.827rem !default;
+$h2:                      1.999rem !default;
+$h3:                      1.414rem !default;
 $h4:                      1rem !default;
 $h5:                      .75rem !default;
 $h6:                      .75rem !default;
 
 // Finer control over type scale after certain breakpoint (off by default)
 $responsive-type:         false !default;
-$h1--desktop:             2.369rem !default;
-$h2--desktop:             1.777rem !default;
-$h3--desktop:             1.333rem !default;
+$h1--desktop:             2.827rem !default;
+$h2--desktop:             1.999rem !default;
+$h3--desktop:             1.414rem !default;
 $h4--desktop:             1rem !default;
 $h5--desktop:             .75rem !default;
 $h6--desktop:             .75rem !default;
@@ -67,8 +72,8 @@ $h6--desktop:             .75rem !default;
 $text-color:              $gray-6 !default;
 
 // Text sizes
-$font-size--mobile:       15px !default;
-$font-size--desktop:      16px !default;
+$font-size--mobile:       16px !default;
+$font-size--desktop:      20px !default;
 $font-size--lg:           $h3 !default;
 $font-size--sm:           $h5 !default;
 
@@ -77,7 +82,7 @@ $font-weight--base:       400 !default;
 $font-weight--heading:    700 !default;
 
 // Line heights
-$line-height--base:       $baseline*4 !default;
+$line-height--base:       1.5 !default;
 $line-height--heading:    1 !default;
 
 
@@ -90,8 +95,7 @@ $breakpoint--md:          50em !default;
 $breakpoint--lg:          60em !default;
 
 // Max container width
-$max-container-width:     45em !default;
-$max-container-width--lg: 60em !default;
+$max-container-width:     1300px !default;
 
 
 // Spaces
@@ -122,7 +126,7 @@ $code-padding:            $baseline*2 $baseline*2 !default;
 
 // Buttons
 // -------------------------------------------------------------------
-$button-padding:          .45rem 1rem .35rem !default;
+$button-padding:          $baseline*1.5 $baseline*4 !default;
 $button-padding--sm:      .1rem .6rem 0 !default;
 
 
@@ -133,10 +137,10 @@ $form-padding:            .45rem .8rem .35rem !default;
 
 // Borders
 // -------------------------------------------------------------------
-$border-color:            $gray-3 !default;
+$border-color:            $gray-6 !default;
 $border-style:            solid !default;
-$border-radius:           3px !default;
-$border-width:            1px !default;
+$border-radius:           5px !default;
+$border-width:            3px !default;
 
 
 // Shadows
