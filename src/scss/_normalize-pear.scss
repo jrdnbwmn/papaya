@@ -1,3 +1,6 @@
+// Some normalization specific to Pear
+
+
 // General
 // -------------------------------------------------------------------
 // It's often advantageous to remove all margins/paddings from certain elements
@@ -23,7 +26,7 @@ hr {
 [tabindex='-1']:focus { outline: none; }
 
 
-// Type
+// Typography
 // -------------------------------------------------------------------
 // Fix some font rendering
 body,
@@ -159,7 +162,7 @@ button {
 
 // Prevent zoom on touch devices in active inputs
 @media screen and (max-width: $breakpoint--md) {
-    input, textarea, select { font-size: 16px; }
+    input, textarea, select { font-size: $font-size--desktop; }
 }
 
 
