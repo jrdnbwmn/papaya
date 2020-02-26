@@ -21,7 +21,7 @@ $purple:                  #8647bc !default;
 $brown:                   #9e6025 !default;
 $light-tan:               #f8f5f2 !default;
 
-$shadow:                  rgba(36,22,58,0.2);
+$shadow:                  rgba(36,22,58,0.15);
 
 // Color scheme
 $primary-color:           $orange !default;
@@ -31,7 +31,7 @@ $tertiary-color:          $yellow !default;
 
 // Baseline
 // -------------------------------------------------------------------
-$baseline:                .4rem !default;
+$baseline:                .5rem !default;
 
 
 // Typography
@@ -96,6 +96,7 @@ $breakpoint--lg:          60em !default;
 
 // Max container width
 $max-container-width:     1300px !default;
+$max-container-width--sm: 750px !default;
 
 
 // Spaces

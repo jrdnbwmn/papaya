@@ -45,6 +45,7 @@
 
     @media screen and (max-width: $breakpoint--sm) {
         display: block;
+        width: 100%;
         margin-bottom: $space-1;
     }
 }
@@ -141,13 +142,11 @@ a.btn {
 
     &:hover,
     &:focus {
-        background-color: transparent;
-        border-color: $gray-5;
+        background-color: $shadow;
     }
 
     &:active {
-        background-color: transparent;
-        border-color: $gray-2;
+        background-color: $shadow;
     }
 }
 

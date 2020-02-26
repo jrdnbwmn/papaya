@@ -8,7 +8,7 @@
 .link:link,
 .link:visited {
     color: $link-color;
-    text-decoration: none;
+    text-decoration: underline;
     transition: color $fade;
 }
 
@@ -26,4 +26,70 @@
     color: $active-link-color;
     outline: 0;
     transition: color $fade;
+}
+
+// Text link
+.text-link,
+.text-link:link,
+.text-link:visited {
+    color: $text-color;
+    text-decoration: none;
+    transition: color $fade;
+}
+
+.text-link:hover,
+.text-link:focus {
+    color: $link-color;
+    text-decoration: none;
+}
+
+.text-link:active {
+    background-image: none;
+    color: $link-color;
+    outline: 0;
+    transition: color $fade;
+}
+
+// Block link
+.block-link,
+.block-link:link,
+.block-link:visited {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    border-color: #fff;
+}
+
+.block-link:hover,
+.block-link:focus {
+    color: inherit;
+    text-decoration: none;
+    background: $shadow;
+}
+
+.block-link:active {
+    background: $shadow;
+    background-image: none;
+    color: inherit;
+    outline: 0;
+}
+
+// Text link
+.text-link--on-change,
+.text-link--on-change:link,
+.text-link--on-change:visited {
+    color: $text-color;
+    text-decoration: none;
+}
+
+.text-link--on-change:hover,
+.text-link--on-change:focus {
+    color: $text-color;
+    text-decoration: none;
+}
+
+.text-link--on-change:active {
+    background-image: none;
+    color: $text-color;
+    outline: 0;
 }
