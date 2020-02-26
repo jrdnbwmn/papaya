@@ -43,7 +43,7 @@
         pointer-events: none; // Future-proof disabling of clicks
     }
 
-    @media screen and (max-width: $breakpoint--sm) {
+    @media screen and (max-width: $breakpoint--md) {
         display: block;
         width: 100%;
         margin-bottom: $space-1;
@@ -153,21 +153,17 @@ a.btn {
 // Dark background button
 .btn--dark-bg {
     background-color: transparent;
-    border-color: $white;
+    border-color: #fff;
     border-width: $border-width;
-    color: $white;
+    color: #fff;
 
     &:hover,
     &:focus {
-        background-color: $white;
-        border-color: $white;
-        color: $text-color;
+        background-color: $shadow;
     }
 
     &:active {
-        background-color: $gray-1;
-        border-color: $gray-1;
-        color: $text-color;
+        background-color: $shadow;
     }
 }
 

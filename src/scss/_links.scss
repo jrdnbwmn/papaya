@@ -74,6 +74,12 @@
     outline: 0;
 }
 
+.block-link {
+    @media screen and (max-width: $breakpoint--sm) {
+        margin-bottom: $space-1;
+    }
+}
+
 // Text link
 .text-link--on-change,
 .text-link--on-change:link,
@@ -92,4 +98,26 @@
     background-image: none;
     color: $text-color;
     outline: 0;
+}
+
+// Text link
+.text-link--white,
+.text-link--white:link,
+.text-link--white:visited {
+    color: #fff;
+    text-decoration: underline;
+    transition: color $fade;
+}
+
+.text-link--white:hover,
+.text-link--white:focus {
+    color: $link-color;
+    text-decoration: none;
+}
+
+.text-link--white:active {
+    background-image: none;
+    color: #fff;
+    outline: 0;
+    transition: color $fade;
 }

@@ -5,6 +5,10 @@ img, canvas, iframe, video, svg { max-width: 100%; }
 
 .shadow-box {
     width: 545px;
-    height: 410.25px;
+    padding-bottom: 75.27%;
     max-width: 100%;
+
+    @media screen and (max-width: $breakpoint--sm) {
+        display: none;
+    }
 }
