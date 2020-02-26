@@ -105,8 +105,7 @@
 .text-link--white:link,
 .text-link--white:visited {
     color: #fff;
-    text-decoration: underline;
-    transition: color $fade;
+    text-decoration: none;
 }
 
 .text-link--white:hover,
@@ -117,7 +116,6 @@
 
 .text-link--white:active {
     background-image: none;
-    color: #fff;
+    color: $link-color;
     outline: 0;
-    transition: color $fade;
 }
