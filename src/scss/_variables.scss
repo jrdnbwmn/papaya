@@ -37,9 +37,9 @@ $baseline:                .5rem !default;
 // Typography
 // -------------------------------------------------------------------
 // Font families
-$sans-serif:              "Gotham", Avenir, "Avenir Next", Trebuchet, Verdana,
+$sans-serif:              "Museo Sans Light", Georgia, Avenir, "Avenir Next", Trebuchet, Verdana,
                           sans-serif !default;
-$sans-serif-bold:         "Gotham", Avenir, "Avenir Next", Trebuchet, Verdana,
+$sans-serif-bold:         "Museo Sans Bold", Georgia, Avenir, "Avenir Next", Trebuchet, Verdana,
                           sans-serif !default;
 $serif:                   Georgia, Times, serif !default;
 $monospace:               Monaco, Menlo, Consolas,
@@ -78,8 +78,8 @@ $font-size--lg:           $h3 !default;
 $font-size--sm:           $h5 !default;
 
 // Weights
-$font-weight--base:       400 !default;
-$font-weight--heading:    700 !default;
+$font-weight--base:       normal !default;
+$font-weight--heading:    normal !default;
 
 // Line heights
 $line-height--base:       1.5 !default;

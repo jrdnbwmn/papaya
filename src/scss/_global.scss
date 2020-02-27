@@ -74,3 +74,25 @@ img::-moz-selection {
     font-style:   normal;
     font-weight:  400;
 }
+
+
+
+
+
+@font-face {
+    font-family: 'Museo Sans Light';
+    src: url('/fonts/MuseoSans_300-webfont.woff2') format('woff2'),
+         url('MuseoSans_300-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Museo Sans Bold';
+    src: url('/fonts/MuseoSans_700-webfont.woff2') format('woff2'),
+         url('/fonts/MuseoSans_700-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
