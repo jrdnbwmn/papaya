@@ -56,20 +56,12 @@ img::-moz-selection {
 // Museo Sans Font
 // -------------------------------------------------------------------
 @font-face {
-    font-family: 'Museo Sans Light';
-    src: url('/fonts/MuseoSans_300-webfont.woff2') format('woff2'),
-         url('/fonts/MuseoSans_300-webfont.woff') format('woff');
+    font-family: 'Museo Sans Normal';
+    src: url('/fonts/MuseoSans_500-webfont.woff2') format('woff2'),
+         url('/fonts/MuseoSans_500-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
-// @font-face {
-//     font-family: 'Museo Sans Normal';
-//     src: url('/fonts/MuseoSans_500-webfont.woff2') format('woff2'),
-//          url('/fonts/MuseoSans_500-webfont.woff') format('woff');
-//     font-weight: normal;
-//     font-style: normal;
-// }
 
 @font-face {
     font-family: 'Museo Sans Bold';
