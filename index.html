@@ -15,8 +15,6 @@
         <!-- The compiled CSS file -->
         <link rel="stylesheet" href="css/production.css">
 
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap" rel="stylesheet"> 
-
         <!-- favicon -->
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
@@ -278,13 +276,11 @@
         <script src="js/production.js"></script>
 
         <!-- Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114844902-1"></script>
         <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-114844902-1');
+            window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+            ga('create', 'UA-114844902-1', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
         </script>
+        <script src="https://www.google-analytics.com/analytics.js" async></script>
 
         <!-- Hotjar -->
         <script>
@@ -297,9 +293,6 @@
                 a.appendChild(r);
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
         </script>
-
-        <!-- Penguin Analytics -->
-        <script src="https://cdn.penguinanalytics.com/29_133.js" async></script>
 
     </body>
 </html>
