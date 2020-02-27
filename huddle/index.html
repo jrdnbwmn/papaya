@@ -41,7 +41,7 @@
 
     </head>
 
-    <body id="body" style="padding-top:75px">
+    <body class="has-animations" id="body" style="padding-top:75px">
 
         <!-- Bar -->
         <div id="bar" class="fixed" style="top:0;right:0;left:0;z-index:999;border-bottom:3px solid #231639;padding:15px 100px;background-color:#fff;font-family:SF Pro Text,Helvetica,Arial,sans-serif;font-size:17px;">
@@ -74,8 +74,8 @@
         <!-- Header -->
         <header class="align--center pt3 pb2">
             <div class="container">
-                <h1 class="mb3" title="Huddle"><img src="/huddle/img/logo.svg" alt="Huddle"></h1>
-                <h2 class="mb3">The mobile app conference for everyone&nbsp;else.</h2>
+                <h1 class="mb3 reveal-on-scroll is-revealing" title="Huddle"><img src="/huddle/img/logo.svg" alt="Huddle"></h1>
+                <h2 class="mb3 reveal-on-scroll is-revealing">The mobile app conference for everyone&nbsp;else.</h2>
                 <p class="mb1">14 - 19 March 2019</p>
                 <p>Stockholm, Sweden</p>
             </div>
@@ -89,15 +89,15 @@
                 <section class="pt2 pb3">                    
                     <img class="mb3" src="/huddle/img/presentor.jpg" alt="Huddle presentation">
                     <div class="grid-row">
-                        <div class="grid-column span-one-third mt1">
+                        <div class="grid-column span-one-third mt1 reveal-on-scroll is-revealing">
                             <img class="icon mb1" src="/huddle/img/bucket.svg">
                             <p>Equidem soleo etiam quod uno Graeci, si aliter non possum idem&nbsp;pluribus.</p>
                         </div>
-                        <div class="grid-column span-one-third mt1">
+                        <div class="grid-column span-one-third mt1 reveal-on-scroll is-revealing">
                             <img class="icon mb1" src="/huddle/img/flask.svg">
                             <p>Nonne videmus quanta perturbatio rerum omnium consequatur&nbsp;quanta.</p>
                         </div>
-                        <div class="grid-column span-one-third mt1">
+                        <div class="grid-column span-one-third mt1 reveal-on-scroll is-revealing">
                             <img class="icon mb1" src="/huddle/img/aircraft.svg">
                             <p>Hoc enim constituto in philosophia constituta sunt omnia aliter&nbsp;possum.</p>
                         </div>
@@ -173,9 +173,9 @@
 
                 <!-- CTA -->
                 <section class="align--center pt3 pb3">
-                    <p class="h3 mb2">Tickets start at&nbsp;$950.</p>
-                    <a href="" class="btn btn--outline">Download Schedule</a>
-                    <a href="https://www.eventbrite.com/" class="btn btn--default">Get a ticket →</a>
+                    <p class="h3 mb2 reveal-on-scroll is-revealing">Tickets start at&nbsp;$950.</p>
+                    <a href="" class="btn btn--outline reveal-on-scroll is-revealing">Download Schedule</a>
+                    <a href="https://www.eventbrite.com/" class="btn btn--default reveal-on-scroll is-revealing">Get a ticket →</a>
                     <p class="small mt1 text--gray">Tickets available on Eventbrite.</p>
                 </section>
 
@@ -195,6 +195,12 @@
 
     </div>
     </div>
+
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!-- The compiled JavaScript file -->
+    <script src="js/production.js"></script>
 
         <!-- for bar -->
         <script>var barClose=document.getElementById("bar-close"),bar=document.getElementById("bar"),body=document.getElementById("body");barClose.onclick=function(){bar.style.display="none",body.style.padding="0"};</script>
